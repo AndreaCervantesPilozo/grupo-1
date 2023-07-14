@@ -23,8 +23,6 @@ for table in soup.findAll('table', attrs={'class': 'table tabledat table-striped
     pibs.append(pib.text)
     vars.append(var.text)
 
-
-
     # if fecha is not None:
     #     fechas.append(fecha.text.strip())
 
